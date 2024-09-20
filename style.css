@@ -21,6 +21,7 @@ body{
     display: flex;
     flex-direction: column;
     padding-inline: 80px;
+    background-color: black;
 }
 
 header{
@@ -33,13 +34,16 @@ header{
 .logo{
     height: 80px;
     width: 80px;
-    background-color: lightgrey;
+    background-size: cover;
+    background-image: url(./pngwing.com\ \(2\).png);
+    background-size: cover;
 }
 
 .menu ul{
     display: flex;
     gap:32px;
     font-size: 32px;
+    color: white;
 }
 
 main{
@@ -55,18 +59,20 @@ main{
 }
 
 .conteudo h1{
-    font-size: 96px;
+    font-size: 80px;
+    color: white;
 }
 
 .conteudo p{
-    font-size: 40px;
+    font-size: 30px;
     width: 90%;
+    color: white;
 }
 
 .conteudo button{
     height: 96px;
     width: 300px;
-    background-color: black;
+    background-color: rgb(2, 119, 0);
     color: white;
     font-size: 32px;
 }
@@ -82,12 +88,15 @@ main{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: lightgrey;
+    /*background-color: lightgrey;*/
 }
 
 .destaque{
     width: 50%;
-    background-color: aliceblue;
+    background-image: url(./img3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 footer{
@@ -95,6 +104,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: lightgrey;
+    color: black;
+    
 }
+
 
